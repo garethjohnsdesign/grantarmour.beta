@@ -34,7 +34,7 @@
           {% endswitch %}
 
           {% if project.featured %}
-              <div class="content grid-y align-center">
+              <div class="content grid-y align-center show-for-medium">
                 <div class="shrink cell padding-1 text-center">
                   <svg class="icon icon-play_arrow margin-top-1"><use xlink:href="/assets/icons/symbol-defs.svg#icon-play_arrow"></use></svg>
                   <div class="sans-regular text-center"><span class="project__title sans-bold text-uppercase">{{ item.title }}</span>{% if item.client %}<span class="dark-gray project__client padding-left-1">{{ item.client }}</span>{% endif %}</div>
@@ -50,6 +50,7 @@
           </div>
           
           {% if project.featured %}
+          <div class="sans-regular text-center show-for-small-only"><span class="project__title sans-bold text-uppercase">{{ item.title }}</span>{% if item.client %}<span class="dark-gray project__client padding-left-1">{{ item.client }}</span>{% endif %}</div>
           {% else %}
           <div class="sans-regular text-center"><span class="project__title sans-bold text-uppercase">{{ item.title }}</span>{% if item.client %}<span class="dark-gray project__client padding-left-1">{{ item.client }}</span>{% endif %}</div>
           {% endif %}
