@@ -81,7 +81,7 @@ return [
     'production' => [
 
         'siteUrl' => [
-            'default' => 'https://www.grantarmour.com',
+            'default' => 'https://grantarmour-prod.frb.io',
         ],
 
         'devMode' => false,
