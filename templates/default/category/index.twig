@@ -1,7 +1,7 @@
 {% set bodyClass = 'category' %}
 {% set projects = craft.entries
 .relatedTo(category)
-.order('postDate desc')
+.orderBy('postDate desc')
 .all() %}
 
 {% extends "_layouts/site" %}
@@ -16,7 +16,7 @@
       <a href="{{ project.url }}">
         {% set image = project.image.one() %}
         <div class="margin-bottom-1 image--24-1" data-interchange="{% include "_includes/images/contained/16-9/interchange-img-small-12-medium-4" %}"></div>
-        <div class="sans-regular text-center"><span class="project__title sans-bold text-uppercase">{{ project.title }}</span>{% if project.client %}<span class="dark-gray project__client padding-left-1">{{ project.client }}</span>{% endif %}</div>
+        <div class="sans-regular text-center project__title sans-bold text-uppercase">{{ project.title }}</div>
       </a>
     </div>
   {% endfor %}

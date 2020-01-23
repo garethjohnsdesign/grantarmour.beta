@@ -970,6 +970,22 @@
 		"oAP": "/web/assets/fonts/gt-walsheim-pro-bold.woff2",
 		"oF": 0
 		},
+	"/web/assets/fonts/helvetica-neue-lt-pro-bd.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/web/assets/fonts/helvetica-neue-lt-pro-bd.woff",
+		"oF": 0
+		},
+	"/web/assets/fonts/helvetica-neue-lt-pro-bd.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/web/assets/fonts/helvetica-neue-lt-pro-bd.woff2",
+		"oF": 0
+		},
 	"/web/assets/fonts/louize-display-italic.woff": {
 		"cB": 0,
 		"ft": 8192,

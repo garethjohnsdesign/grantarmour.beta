@@ -2,9 +2,9 @@
   <div class="grid-x grid-padding-x grid-padding-y align-center-middle" style="height: 100%">
     <div class="shrink cell text-center">
 
-    <ul class="vertical menu align-center">
+    <ul class="vertical menu align-center white">
       <li><a href="/" class="text-uppercase sans-bold h4">Home</a></li>
-      {% nav category in craft.categories.group('typeOfFilm') %}
+      {% nav category in craft.categories.group('typeOfFilm').all() %}
           <li>
            <a href="{{ category.url }}" class="text-uppercase sans-bold h4">{{ category.title }}</a>
           </li>
@@ -14,7 +14,7 @@
     </ul>
 
     <div class="shrink cell text-center">
-     <ul class="menu align-center">
+     <ul class="menu align-center white">
         {% for block in site.socials.all() %}
         {% switch block.type %}
           {% case "facebook" %}
