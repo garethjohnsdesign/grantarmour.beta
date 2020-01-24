@@ -12,7 +12,7 @@
 {% set projectCount = projects|length %}
 <div class="grid-x grid-padding-x grid-padding-y {% if projectCount > 2 %}align-left{% else %}align-center{% endif %}">
   {% for project in projects %}
-    <div class="small-12 medium-6 {% if projectCount > 2 %}xlarge-4{% else %}xlarge-6{% endif %} cell text-center">
+    <div class="small-12 medium-6 {% if projectCount > 2 %}xlarge-6{% else %}xlarge-6{% endif %} cell text-center">
       <a href="{{ project.url }}">
         {% set image = project.image.one() %}
         <div class="margin-bottom-1 image--24-1" data-interchange="{% include "_includes/images/contained/16-9/interchange-img-small-12-medium-4" %}"></div>
