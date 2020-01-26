@@ -31,11 +31,11 @@
       <ul class="menu align-center">
         {% nav category in craft.categories.group('typeOfFilm').all %}
             <li>
-             <a href="{{ category.url }}" class="sans-bold h5">{{ category.title }}</a>
+             <a href="{{ category.url }}" class="sans-bold h5 text-lowercase">{{ category.title }}</a>
             </li>
         {% endnav %}
-        <li><a href="/about" class="sans-bold h5">About</a></li>
-        <li><a href="/contact" class="sans-bold h5">Contact</a></li>
+        <li><a href="/about" class="sans-bold h5 text-lowercase">About</a></li>
+        <li><a href="/contact" class="sans-bold h5 text-lowercase">Contact</a></li>
       </ul>
     </div>
 
