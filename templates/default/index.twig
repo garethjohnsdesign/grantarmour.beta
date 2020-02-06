@@ -33,6 +33,12 @@
             <div class="margin-bottom-1 image--24-1 act--link" data-interchange="{% include "_includes/images/contained/16-9/interchange-img-small-12-medium-12" %}">
           {% endswitch %}
 
+          {% if item.previewVideo %}
+            <video playsinline autoplay muted loop class="video" poster="">
+              <source src="{{ item.previewVideo }}" type="video/mp4">
+            </video>
+          {% endif %}
+
           {% if project.featured %}
               <div class="content grid-y align-center show-for-medium">
                 <div class="shrink cell padding-1 text-center white">
