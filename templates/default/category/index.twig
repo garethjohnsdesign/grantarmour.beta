@@ -15,7 +15,20 @@
     <div class="small-12 medium-6 {% if projectCount > 2 %}xlarge-6{% else %}xlarge-6{% endif %} cell text-center">
       <a href="{{ project.url }}">
         {% set image = project.image.one() %}
-        <div class="margin-bottom-1 image--24-1" data-interchange="{% include "_includes/images/contained/16-9/interchange-img-small-12-medium-4" %}"></div>
+        <div class="margin-bottom-1 image--16-9 act--link" data-interchange="{% include "_includes/images/contained/16-9/interchange-img-small-12-medium-4" %}">
+          {% if project.previewVideo and project.playPreview %}
+            <video playsinline autoplay muted loop class="video" poster="">
+              <source src="{{ project.previewVideo }}" type="video/mp4">
+            </video>
+          {% endif %}
+
+              <div class="content grid-y align-center act__hover">
+                <div class="shrink cell padding-1 text-center white">
+                  <svg class="icon icon-play_arrow margin-top-1"><use xlink:href="/assets/icons/symbol-defs.svg#icon-play_arrow"></use></svg>
+                </div>
+              </div>
+
+          </div>
         <div class="text-center project__title sans-bold text-lowercase">{{ project.title }}{% if category.title == 'Commercial' %}
     — {{ category.title }}
 {% endif %}</div>
