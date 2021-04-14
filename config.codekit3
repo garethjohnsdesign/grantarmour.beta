@@ -2618,6 +2618,65 @@
       "oAP" : "\/web\/cpresources\/74ac62f0\/js\/RedactorOverrides.min.js.map",
       "oF" : 0
     },
+    "\/web\/cpresources\/84a5214f\/deprecator.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/web\/cpresources\/84a5214f\/deprecator-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/web\/cpresources\/84a5214f\/deprecator.css.map" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/web\/cpresources\/84a5214f\/deprecator.css.map",
+      "oF" : 0
+    },
+    "\/web\/cpresources\/84a5214f\/deprecator.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/web\/cpresources\/84a5214f\/deprecator.min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/web\/cpresources\/84a5214f\/deprecator.min.js.map" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/web\/cpresources\/84a5214f\/deprecator.min.js.map",
+      "oF" : 0
+    },
+    "\/web\/cpresources\/84a5214f\/images\/spinner_big_2x.gif" : {
+      "ft" : 4194304,
+      "iS" : 24092,
+      "oA" : 0,
+      "oAP" : "\/web\/cpresources\/84a5214f\/images\/spinner_big_2x.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/web\/cpresources\/84a5214f\/images\/spinner_big.gif" : {
+      "ft" : 4194304,
+      "iS" : 9087,
+      "oA" : 0,
+      "oAP" : "\/web\/cpresources\/84a5214f\/images\/spinner_big.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
     "\/web\/cpresources\/244f3f97\/utilities.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -3862,6 +3921,25 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/web\/cpresources\/68803bbc\/fieldsettings.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/web\/cpresources\/68803bbc\/fieldsettings.min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/web\/cpresources\/68803bbc\/fieldsettings.min.js.map" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/web\/cpresources\/68803bbc\/fieldsettings.min.js.map",
+      "oF" : 0
+    },
     "\/web\/cpresources\/75964ada\/images\/error_2x.png" : {
       "ft" : 32768,
       "iS" : 1971,
@@ -3951,6 +4029,25 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/web\/cpresources\/75964ada\/Updater.min.js.map",
+      "oF" : 0
+    },
+    "\/web\/cpresources\/530100c\/iframeResizer.contentWindow.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/web\/cpresources\/530100c\/iframeResizer.contentWindow-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/web\/cpresources\/530100c\/iframeResizer.contentWindow.js.map" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/web\/cpresources\/530100c\/iframeResizer.contentWindow.js.map",
       "oF" : 0
     },
     "\/web\/cpresources\/3330409c\/velocity.js" : {
@@ -5422,6 +5519,25 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/web\/cpresources\/e63a5a3a\/UpdatesWidget.min.js.map",
+      "oF" : 0
+    },
+    "\/web\/cpresources\/ee562d7\/MatrixConfigurator.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/web\/cpresources\/ee562d7\/MatrixConfigurator.min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/web\/cpresources\/ee562d7\/MatrixConfigurator.min.js.map" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/web\/cpresources\/ee562d7\/MatrixConfigurator.min.js.map",
       "oF" : 0
     },
     "\/web\/cpresources\/f007e268\/xregexp-all.js" : {

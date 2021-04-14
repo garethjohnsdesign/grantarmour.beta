@@ -5,8 +5,7 @@
 {% block main %}
 
 <!-- Layout -->
-<div class="grid-x grid-padding-x grid-padding-y">
-  
+<div class="grid-x grid-padding-x grid-padding-y">  
   {% set projectsQuery = entry.projects.all() %}
 
   {% for project in projectsQuery %}
@@ -49,7 +48,6 @@
           {% else %}
               <div class="content grid-y align-center act__hover">
                 <div class="shrink cell padding-1 text-center">
-{#                   <svg class="icon icon-play_arrow margin-top-1"><use xlink:href="/assets/icons/symbol-defs.svg#icon-play_arrow"></use></svg> #}
                 </div>
               </div>
           {% endif %}

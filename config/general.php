@@ -50,9 +50,6 @@ return [
 
     // Development environment settings
     'dev' => [
-       'siteUrl' => [
-          'default' => 'https://grantarmour.test',
-        ],
 
         // Dev Mode (see https://craftcms.com/support/dev-mode)
         'devMode' => true,
@@ -65,11 +62,6 @@ return [
     // Staging environment settings
     'staging' => [
 
-        'siteUrl' => [
-            'default' => 'https://grantarmour-stage.frb.io',
-        ],
-
-
         'devMode' => true,
         'enableTemplateCaching' => false,
         'allowUpdates' => true,
@@ -79,10 +71,6 @@ return [
 
     // Production environment settings
     'production' => [
-
-        'siteUrl' => [
-            'default' => 'https://grant-armour.frb.io',
-        ],
 
         'devMode' => false,
         'enableTemplateCaching' => true,

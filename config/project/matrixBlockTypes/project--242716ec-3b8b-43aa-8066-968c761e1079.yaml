@@ -8,38 +8,38 @@ fieldLayouts:
             fieldUid: 4a35558b-3a40-42c2-8b8a-854ea3cf9bc0 # Project
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
-            width: 100
+            width: 50
           -
             fieldUid: 4f17ba99-8cd2-4dd2-b109-9da623ffc42f # Width
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
-            width: 100
+            width: 50
           -
             fieldUid: 7409bd48-6e49-47ab-b5e7-2705be5584d0 # Featured
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
-            width: 100
+            width: 50
           -
             fieldUid: b7a82506-e34a-4c0b-9393-2e533055dad3 # Play Preview
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
-            width: 100
+            width: 50
         name: Content
         sortOrder: 1
 fields:
@@ -47,14 +47,14 @@ fields:
     contentColumnType: string
     fieldGroup: null
     handle: project
-    instructions: ''
+    instructions: 'Select project to display'
     name: Project
     searchable: true
     settings:
       allowSelfRelations: false
       limit: '1'
       localizeRelations: false
-      selectionLabel: ''
+      selectionLabel: 'Add a project'
       showSiteMenu: true
       source: null
       sources:
@@ -69,7 +69,7 @@ fields:
     contentColumnType: string
     fieldGroup: null
     handle: width
-    instructions: ''
+    instructions: 'Width of display'
     name: Width
     searchable: true
     settings:
@@ -78,69 +78,69 @@ fields:
         -
           __assoc__:
             -
-              - default
-              - ''
-            -
               - label
               - 1/6
             -
               - value
               - 'small-12 medium-2'
-        -
-          __assoc__:
             -
               - default
               - ''
+        -
+          __assoc__:
             -
               - label
               - 1/3
             -
               - value
               - 'small-12 medium-4'
-        -
-          __assoc__:
             -
               - default
-              - '1'
+              - ''
+        -
+          __assoc__:
             -
               - label
               - 1/2
             -
               - value
               - 'small-12 medium-6'
-        -
-          __assoc__:
             -
               - default
-              - ''
+              - '1'
+        -
+          __assoc__:
             -
               - label
               - 2/3
             -
               - value
               - 'small-12 medium-8'
-        -
-          __assoc__:
             -
               - default
               - ''
+        -
+          __assoc__:
             -
               - label
               - 5/6
             -
               - value
               - 'small-12 medium-10'
-        -
-          __assoc__:
             -
               - default
               - ''
+        -
+          __assoc__:
             -
               - label
               - 1/1
             -
               - value
               - 'small-12 medium-12'
+            -
+              - default
+              - ''
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\Dropdown
@@ -148,7 +148,7 @@ fields:
     contentColumnType: boolean
     fieldGroup: null
     handle: featured
-    instructions: ''
+    instructions: 'Should have featured layout with play button in centre and overlaying text'
     name: Featured
     searchable: true
     settings:
@@ -162,7 +162,7 @@ fields:
     contentColumnType: boolean
     fieldGroup: null
     handle: playPreview
-    instructions: ''
+    instructions: 'Loop video should play, obviously needs to have a loop video to work'
     name: 'Play Preview'
     searchable: true
     settings:

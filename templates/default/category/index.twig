@@ -1,40 +1,68 @@
 {% set bodyClass = 'category' %}
-{% set projects = craft.entries
-.relatedTo(category)
-.orderBy('postDate desc')
-.all() %}
+{% set projectsQuery = category.projects.all() %}
 
 {% extends "_layouts/site" %}
 
 {% block main %}
 
-<!-- Projects -->
-{% set projectCount = projects|length %}
-<div class="grid-x grid-padding-x grid-padding-y {% if projectCount > 2 %}align-left{% else %}align-center{% endif %}">
-  {% for project in projects %}
-    <div class="small-12 medium-6 {% if projectCount > 2 %}xlarge-6{% else %}xlarge-6{% endif %} cell text-center">
-      <a href="{{ project.url }}">
-        {% set image = project.image.one() %}
-        <div class="margin-bottom-1 image--16-9 act--link" data-interchange="{% include "_includes/images/contained/16-9/interchange-img-small-12-medium-4" %}">
-          {% if project.previewVideo and project.playPreview %}
+<!-- Layout -->
+<div class="grid-x grid-padding-x grid-padding-y">  
+  {% for project in projectsQuery %}
+    <div class="{{ project.width.value }} cell">
+
+        {% set item = project.project.one() %}
+        <a href="{{ item.url }}">
+          {% set image = item.image.one() %}
+
+          {% switch project.width.label %}
+          {% case "1/6" %}
+            <div class="margin-bottom-1 image--16-9  act--link" data-interchange="{% include "_includes/images/contained/16-9/interchange-img-small-12-medium-4" %}">
+          {% case "1/3" %}
+            <div class="margin-bottom-1 image--16-9  act--link" data-interchange="{% include "_includes/images/contained/16-9/interchange-img-small-12-medium-4" %}">
+          {% case "1/2" %}
+            <div class="margin-bottom-1 image--16-9  act--link" data-interchange="{% include "_includes/images/contained/16-9/interchange-img-small-12-medium-6" %}">
+          {% case "2/3" %}
+            <div class="margin-bottom-1 image--16-9  act--link" data-interchange="{% include "_includes/images/contained/16-9/interchange-img-small-12-medium-6" %}">
+          {% case "5/6" %}
+            <div class="margin-bottom-1 image--16-9  act--link" data-interchange="{% include "_includes/images/contained/16-9/interchange-img-small-12-medium-12" %}">
+          {% case "1/1" %}
+            <div class="margin-bottom-1 image--16-9  act--link" data-interchange="{% include "_includes/images/contained/16-9/interchange-img-small-12-medium-12" %}">
+          {% default %}
+            <div class="margin-bottom-1 image--16-9  act--link" data-interchange="{% include "_includes/images/contained/16-9/interchange-img-small-12-medium-12" %}">
+          {% endswitch %}
+
+          {% if item.previewVideo and project.playPreview %}
             <video playsinline autoplay muted loop class="video" poster="">
-              <source src="{{ project.previewVideo }}" type="video/mp4">
+              <source src="{{ item.previewVideo }}" type="video/mp4">
             </video>
           {% endif %}
 
-              <div class="content grid-y align-center act__hover">
+          {% if project.featured %}
+              <div class="content grid-y align-center show-for-medium">
                 <div class="shrink cell padding-1 text-center white">
                   <svg class="icon icon-play_arrow margin-top-1"><use xlink:href="/assets/icons/symbol-defs.svg#icon-play_arrow"></use></svg>
+                  <div class="text-center project__title sans-bold text-lowercase">{{ item.title }}</div>
                 </div>
               </div>
-
+          {% else %}
+              <div class="content grid-y align-center act__hover">
+                <div class="shrink cell padding-1 text-center">
+                </div>
+              </div>
+          {% endif %}
           </div>
-        <div class="text-center project__title sans-bold text-lowercase">{{ project.title }}{% if category.title == 'Commercial' %}
-    — {{ category.title }}
-{% endif %}</div>
-      </a>
+          
+          {% if project.featured %}
+          <div class="sans-regular text-center show-for-small-only"><span class="project__title sans-bold text-lowercase">{{ item.title }}</span>{% if item.client %}<span class="dark-gray project__client padding-left-1">{{ item.client }}</span>{% endif %}</div>
+          {% else %}
+          <div class="text-center project__title sans-bold text-lowercase">{{ item.title }}</div>
+          {% endif %}
+        </a>
+
     </div>
   {% endfor %}
+
 </div>
-<!-- End Projects -->
+<!-- End Layout -->
+
 {% endblock %}
