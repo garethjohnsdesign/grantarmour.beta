@@ -80,8 +80,7 @@ $foundation-palette: (
 );
 */
 $foundation-palette: (
-  primary: #111111, //green
-//   primary: #ed3348, //red
+  primary: #fefefe, //green
   secondary: #767676,
   tertiary: #fbeed6,
   success: #3adb76,
@@ -96,8 +95,8 @@ $dark-gray: #757575;
 // $black: #0a0a0a;
 $black: #111111;
 $white: #fefefe;
-$body-background: $white;
-$body-font-color: $black;
+$body-background: $black;
+$body-font-color: $white;
 // $body-font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
 $body-font-family: $sans-regular;
 $body-antialiased: true;

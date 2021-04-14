@@ -1,0 +1,22 @@
+dateModified: 1618359445
+email:
+  fromEmail: info@garethjohnsdesign.com
+  fromName: 'Grant Armour'
+  transportType: craft\mail\transportadapters\Sendmail
+plugins:
+  feed-me:
+    schemaVersion: 4.3.0
+  google-cloud:
+    schemaVersion: '1.1'
+system:
+  edition: solo
+  live: true
+  name: 'Grant Armour'
+  schemaVersion: 3.6.8
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
