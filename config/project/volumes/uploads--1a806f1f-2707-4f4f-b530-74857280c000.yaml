@@ -1,0 +1,67 @@
+fieldLayouts:
+  ebb69af7-6ede-4082-a3a7-f1ddcf939116:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\AssetTitleField
+            warning: null
+            width: 100
+          -
+            fieldUid: 79d38564-7a13-45bc-a6cd-938d01444e49 # Aspect Ratio
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Tab 1'
+        sortOrder: 1
+handle: uploads
+hasUrls: true
+name: Uploads
+settings:
+  errorMessage: 'Unable to find component class ''craft\googlecloud\Volume''.'
+  expectedType: craft\googlecloud\Volume
+  settings:
+    __assoc__:
+      -
+        - bucket
+        - grant-armour
+      -
+        - expires
+        - ''
+      -
+        - keyFileContents
+        - "{\r\n  \"type\": \"service_account\",\r\n  \"project_id\": \"reformation-studio\",\r\n  \"private_key_id\": \"0e81634d3f2626bb759c7a9183324dd7bbe22db8\",\r\n  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCjJ86CPNpxKdiA\\nntXTsIWxwVvtNYLF7L1NSyAEcu0r2cX+9nFizOkrVTLYNLgHTLYsUHjCrZV6NAEM\\nGY+Jv1M3c9SDyc/MYWntGbUrGI8TVZdnk3u/sLNp7MZ8YE9KeqK98kmGg9rNq+Y9\\nUOxVreHHh32a7YEoDiuxdS6rz68vjug9NFfeD8riA6S3jcZ7ajJx2Wu4ZIXZqsm7\\ngpKYpU0aj5uqN3/wVnO6xSqn9z9hZGXQouFTmWtUUUdVq8Go90JPm29LeD2/nvto\\nFGvKl07BeRgdGaWlHjUz62ocjdJb6rfFgL74fq5rGw9xalyODn1lfKE+ZlhV8yEX\\nYSkrbLUbAgMBAAECggEAFK2M3LC9tq3pBJQc4ZFzwE2TSwMHKfKRI2SsECRIrtAQ\\n6flt8Wmq+5T2trQnxrUQOZmRVIsPcMd6goAS0xBuiY6ilnlTXsHR3PzvGyEnsPme\\nEMB+ZJMOihQ6K7VBF11nls9IRkYbywlISukgqtM41EL1xlbnkZ4KJ5mEar4No+cy\\nmyuGqU/t0CS5mDKfN3EICtMoina5g8lDKBJw/U1N2y+vYfNw9tm52kt+ro0lNR/1\\nRs6ev8nZ+7ws1LklY+xpWjOWcFmtA9jDQmAp+xulraKK+nBAPJsbwYH4VVI4ykZw\\nJ6n76mR0j2KyqF30Swh1ncps5Kj6zzrAWCJOU1jw8QKBgQDlvawXWdVahHhb+CCA\\n5NN4WL6408J/RoYIlQrc7021yYLgdvfVfuoFqNgd5obiO+pyJ2iTnJc41Ymd+uT3\\nqV7uaDqhuljgmWjw6y/HeKdFgtqmYigwTsk/906FWCvjihEcBrcPOZGUx3tAORuL\\nUIOje5KJ1aYIfDcwpF3rRdE0/wKBgQC1zdBRIlKBn3wRDnIJTNtpiUGNjLEwuOgC\\nBLM5JvW6ryE9lap2p5X0gtAcCp0P1rkvLw5dyngQa3slaaIL+/bY+GyOkgsqL5Zq\\nTm7FYfnf56KOLb6k9dIE0DFVOWyIK5At5U9W+C4qOc63w1qSFp97OT8i9ubqkOL4\\nzilSjsaz5QKBgCYpOVqvm1brxipQruV6HP5Sj2uYESifCEiIqUNFpLzbehfa6xPV\\nfv3tq+hbkHAnz6uijCZozl2saq2JLVtOEOy893BByd2U3e+WwVr62Z4cPEGC8HYF\\nwDwV0j8oBDJJjsn++41V3K6/6+MhGUgs2ZDgR9kJWgjyySAVTVx1Pmj1AoGAEear\\nDWIYx6ShfbhzaBEGRbT7HGnvBIIgbhpyXz1D0tbtqfezqi1EKag7v5cX8fhNkaTL\\ngFawTcWXgY6OIynzG1gSsFMXAFdhMyR36b2E8hQHwIImlG2T+V9ajC60ThAkCTDc\\nCA811HiOry9wGpRZrbNsURAImq4bey4piXR/gjUCgYAyzaVFHqKd2/UvEP0Nnu/M\\nBTO/4+/wrzPs0+TbyfV5Tj9e8SyBKR/C4gLqZFFODtL5OHnWLle47SwtDDXbDnfg\\nfBnlUvoba4KPqonmvHu5wjOhUScGCiVu/8ansWcJj+KTpTWC6/7JjQ1Ir0MXFp0a\\nTpIwWUqYsqwpd30VcGOMWg==\\n-----END PRIVATE KEY-----\\n\",\r\n  \"client_email\": \"cloud-storage-347@reformation-studio.iam.gserviceaccount.com\",\r\n  \"client_id\": \"117514840865639174904\",\r\n  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\r\n  \"token_uri\": \"https://oauth2.googleapis.com/token\",\r\n  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\r\n  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/cloud-storage-347%40reformation-studio.iam.gserviceaccount.com\"\r\n}"
+      -
+        - projectId
+        - reformation-studio
+      -
+        - subfolder
+        - ''
+sortOrder: 8
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+type: craft\volumes\MissingVolume
+url: 'http://storage.googleapis.com/grant-armour/'

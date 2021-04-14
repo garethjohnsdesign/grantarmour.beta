@@ -1,0 +1,11 @@
+enableVersioning: true
+handle: contact
+name: Contact
+propagationMethod: all
+siteSettings:
+  0c3138de-61c9-4e2d-8982-aa68a6127f5f: # Grant Armour
+    enabledByDefault: true
+    hasUrls: true
+    template: contact/contact
+    uriFormat: contact
+type: single

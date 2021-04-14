@@ -1,8 +1,0 @@
-baseUrl: $PRIMARY_SITE_URL
-handle: default
-hasUrls: true
-language: en-GB
-name: 'Grant Armour'
-primary: true
-siteGroup: dfa3c4b2-79ca-4228-ba13-ea269530f0ed
-sortOrder: 1

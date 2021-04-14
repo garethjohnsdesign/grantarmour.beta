@@ -1,0 +1,177 @@
+field: d8d499ff-1659-4546-9adf-7cb39541908b # Projects
+fieldLayouts:
+  4b9675c7-6eea-4eae-b962-2b0947ca2679:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 4a35558b-3a40-42c2-8b8a-854ea3cf9bc0 # Project
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 4f17ba99-8cd2-4dd2-b109-9da623ffc42f # Width
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 7409bd48-6e49-47ab-b5e7-2705be5584d0 # Featured
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: b7a82506-e34a-4c0b-9393-2e533055dad3 # Play Preview
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  4a35558b-3a40-42c2-8b8a-854ea3cf9bc0: # Project
+    contentColumnType: string
+    fieldGroup: null
+    handle: project
+    instructions: ''
+    name: Project
+    searchable: true
+    settings:
+      allowSelfRelations: false
+      limit: '1'
+      localizeRelations: false
+      selectionLabel: ''
+      showSiteMenu: true
+      source: null
+      sources:
+        - 'section:d9c056ab-bc04-4f7e-b61d-6c7b8ce80732' # Projects
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+  4f17ba99-8cd2-4dd2-b109-9da623ffc42f: # Width
+    contentColumnType: string
+    fieldGroup: null
+    handle: width
+    instructions: ''
+    name: Width
+    searchable: true
+    settings:
+      optgroups: true
+      options:
+        -
+          __assoc__:
+            -
+              - default
+              - ''
+            -
+              - label
+              - 1/6
+            -
+              - value
+              - 'small-12 medium-2'
+        -
+          __assoc__:
+            -
+              - default
+              - ''
+            -
+              - label
+              - 1/3
+            -
+              - value
+              - 'small-12 medium-4'
+        -
+          __assoc__:
+            -
+              - default
+              - '1'
+            -
+              - label
+              - 1/2
+            -
+              - value
+              - 'small-12 medium-6'
+        -
+          __assoc__:
+            -
+              - default
+              - ''
+            -
+              - label
+              - 2/3
+            -
+              - value
+              - 'small-12 medium-8'
+        -
+          __assoc__:
+            -
+              - default
+              - ''
+            -
+              - label
+              - 5/6
+            -
+              - value
+              - 'small-12 medium-10'
+        -
+          __assoc__:
+            -
+              - default
+              - ''
+            -
+              - label
+              - 1/1
+            -
+              - value
+              - 'small-12 medium-12'
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  7409bd48-6e49-47ab-b5e7-2705be5584d0: # Featured
+    contentColumnType: boolean
+    fieldGroup: null
+    handle: featured
+    instructions: ''
+    name: Featured
+    searchable: true
+    settings:
+      default: false
+      offLabel: null
+      onLabel: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Lightswitch
+  b7a82506-e34a-4c0b-9393-2e533055dad3: # Play Preview
+    contentColumnType: boolean
+    fieldGroup: null
+    handle: playPreview
+    instructions: ''
+    name: 'Play Preview'
+    searchable: true
+    settings:
+      default: false
+      offLabel: null
+      onLabel: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Lightswitch
+handle: project
+name: Project
+sortOrder: 1

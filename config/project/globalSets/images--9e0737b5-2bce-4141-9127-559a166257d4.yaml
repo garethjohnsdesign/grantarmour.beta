@@ -1,0 +1,18 @@
+fieldLayouts:
+  78b84061-686a-4906-a2ac-1c640636287b:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: b8bbaa48-dbbe-42c9-a5af-19b1c23b3f55 # Domain
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Tab 1'
+        sortOrder: 1
+handle: images
+name: Images

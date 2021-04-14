@@ -1,0 +1,186 @@
+field: b20240ab-6495-4623-b16d-6ac8c2e80970 # Layout
+fieldLayouts:
+  294b0263-5e22-4eee-b376-a89fe82ee316:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 73d48d09-f11a-4dcd-9129-f1081e824770 # Copy
+            instructions: null
+            label: null
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: f796815d-09cb-4fe8-ae3d-965ad414311a # Position
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 554aefdf-561f-475e-b0b1-e767e914d43c # Page
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 1e191f3e-7814-400d-8d2f-3f21765eb5ee # Background
+            instructions: null
+            label: null
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  1e191f3e-7814-400d-8d2f-3f21765eb5ee: # Background
+    contentColumnType: string
+    fieldGroup: null
+    handle: background
+    instructions: ''
+    name: Background
+    searchable: true
+    settings:
+      optgroups: true
+      options:
+        -
+          __assoc__:
+            -
+              - default
+              - '1'
+            -
+              - label
+              - White
+            -
+              - value
+              - white
+        -
+          __assoc__:
+            -
+              - default
+              - ''
+            -
+              - label
+              - Light
+            -
+              - value
+              - light
+        -
+          __assoc__:
+            -
+              - default
+              - ''
+            -
+              - label
+              - Primary
+            -
+              - value
+              - primary
+        -
+          __assoc__:
+            -
+              - default
+              - ''
+            -
+              - label
+              - Secondary
+            -
+              - value
+              - secondary
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  73d48d09-f11a-4dcd-9129-f1081e824770: # Copy
+    contentColumnType: text
+    fieldGroup: null
+    handle: copy
+    instructions: ''
+    name: Copy
+    searchable: true
+    settings:
+      availableTransforms: '*'
+      availableVolumes: '*'
+      cleanupHtml: true
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: ''
+      purifyHtml: '1'
+      redactorConfig: ''
+      removeEmptyTags: '1'
+      removeInlineStyles: '1'
+      removeNbsp: '1'
+      showHtmlButtonForNonAdmins: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: true
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+  554aefdf-561f-475e-b0b1-e767e914d43c: # Page
+    contentColumnType: string
+    fieldGroup: null
+    handle: page
+    instructions: ''
+    name: Page
+    searchable: true
+    settings:
+      allowSelfRelations: false
+      limit: '1'
+      localizeRelations: false
+      selectionLabel: ''
+      showSiteMenu: true
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+  f796815d-09cb-4fe8-ae3d-965ad414311a: # Position
+    contentColumnType: string
+    fieldGroup: null
+    handle: position
+    instructions: ''
+    name: Position
+    searchable: true
+    settings:
+      default: center
+      options:
+        __assoc__:
+          -
+            - left
+            - '1'
+          -
+            - center
+            - '1'
+          -
+            - right
+            - '1'
+          -
+            - full
+            - '1'
+          -
+            - drop-left
+            - ''
+          -
+            - drop-right
+            - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: rias\positionfieldtype\fields\Position
+handle: copy
+name: Copy
+sortOrder: 1

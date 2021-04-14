@@ -1,0 +1,23 @@
+contentColumnType: string
+fieldGroup: 20ad2dfb-5b0d-4ef8-9ccf-dfb17fa54e0f # Projects
+handle: category
+instructions: ''
+name: Category
+searchable: true
+settings:
+  allowLimit: false
+  allowMultipleSources: false
+  allowSelfRelations: false
+  branchLimit: '1'
+  limit: null
+  localizeRelations: false
+  selectionLabel: ''
+  showSiteMenu: true
+  source: 'group:4005f50a-e871-4a93-9c95-f8bfcd8a5109' # Type of Film
+  sources: '*'
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Categories

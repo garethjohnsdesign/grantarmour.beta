@@ -1,0 +1,211 @@
+field: b20240ab-6495-4623-b16d-6ac8c2e80970 # Layout
+fieldLayouts:
+  10632337-f462-4095-be8d-3d79187b528f:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: fade767c-276b-446e-8020-084ca92b8132 # Image
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 73d05774-73e2-4390-8166-54c8f7d64260 # Position
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: c11c4e3e-eb7d-4583-aed1-48bf7d16b11f # Aspect Ratio
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 383ecee2-5c0a-4935-a195-4d1c10fcc879 # Caption
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  73d05774-73e2-4390-8166-54c8f7d64260: # Position
+    contentColumnType: string
+    fieldGroup: null
+    handle: position
+    instructions: ''
+    name: Position
+    searchable: true
+    settings:
+      default: full
+      options:
+        __assoc__:
+          -
+            - left
+            - '1'
+          -
+            - center
+            - '1'
+          -
+            - right
+            - '1'
+          -
+            - full
+            - '1'
+          -
+            - drop-left
+            - ''
+          -
+            - drop-right
+            - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: rias\positionfieldtype\fields\Position
+  383ecee2-5c0a-4935-a195-4d1c10fcc879: # Caption
+    contentColumnType: text
+    fieldGroup: null
+    handle: caption
+    instructions: ''
+    name: Caption
+    searchable: true
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  c11c4e3e-eb7d-4583-aed1-48bf7d16b11f: # Aspect Ratio
+    contentColumnType: string
+    fieldGroup: null
+    handle: aspectRatio
+    instructions: ''
+    name: 'Aspect Ratio'
+    searchable: true
+    settings:
+      optgroups: true
+      options:
+        -
+          __assoc__:
+            -
+              - default
+              - '1'
+            -
+              - label
+              - Default
+            -
+              - value
+              - default
+        -
+          __assoc__:
+            -
+              - default
+              - ''
+            -
+              - label
+              - Portrait
+            -
+              - value
+              - portrait
+        -
+          __assoc__:
+            -
+              - default
+              - ''
+            -
+              - label
+              - Square
+            -
+              - value
+              - square
+        -
+          __assoc__:
+            -
+              - default
+              - ''
+            -
+              - label
+              - Panorama
+            -
+              - value
+              - panorama
+        -
+          __assoc__:
+            -
+              - default
+              - ''
+            -
+              - label
+              - Hero
+            -
+              - value
+              - hero
+        -
+          __assoc__:
+            -
+              - default
+              - ''
+            -
+              - label
+              - Landscape
+            -
+              - value
+              - landscape
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  fade767c-276b-446e-8020-084ca92b8132: # Image
+    contentColumnType: string
+    fieldGroup: null
+    handle: image
+    instructions: ''
+    name: Image
+    searchable: true
+    settings:
+      allowSelfRelations: false
+      allowUploads: true
+      allowedKinds:
+        - image
+      defaultUploadLocationSource: 'volume:1a806f1f-2707-4f4f-b530-74857280c000' # Uploads
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: '1'
+      selectionLabel: 'Add an image'
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: true
+      singleUploadLocationSource: 'volume:1a806f1f-2707-4f4f-b530-74857280c000' # Uploads
+      singleUploadLocationSubpath: ''
+      source: null
+      sources: '*'
+      targetSiteId: null
+      useSingleFolder: true
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: image
+name: Image
+sortOrder: 2

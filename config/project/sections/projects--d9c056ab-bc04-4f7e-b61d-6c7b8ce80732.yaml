@@ -1,0 +1,14 @@
+enableVersioning: true
+handle: projects
+name: Projects
+propagationMethod: all
+siteSettings:
+  0c3138de-61c9-4e2d-8982-aa68a6127f5f: # Grant Armour
+    enabledByDefault: true
+    hasUrls: true
+    template: projects/entry
+    uriFormat: '{slug}'
+structure:
+  maxLevels: null
+  uid: bae4f94b-56b7-4d85-af32-277eb79e449b
+type: structure

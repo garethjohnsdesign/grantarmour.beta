@@ -1,0 +1,63 @@
+fieldLayouts:
+  78b4a8c8-e61c-4575-a46e-e9955ce064fa:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 37935d71-f171-4ecf-96a8-d5a1092a6b9c # Location
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: b98e4070-1198-44ee-a715-f62bffc2accd # Address
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 5f69b46d-451c-44ae-939a-dfdcb992fe17 # Newsletter
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 1e915834-a9e5-4736-aa84-209add6fb4e3 # Socials
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 5dfacc5b-9cdd-4a49-b4a0-73b8c9fa3ab2 # Phone Number
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 77300c98-4c81-4b5c-a98c-a959255cec98 # Email
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Tab 1'
+        sortOrder: 1
+handle: site
+name: Site

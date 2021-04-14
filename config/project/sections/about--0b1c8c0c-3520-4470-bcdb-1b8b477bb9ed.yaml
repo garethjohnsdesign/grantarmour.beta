@@ -1,0 +1,11 @@
+enableVersioning: true
+handle: about
+name: About
+propagationMethod: all
+siteSettings:
+  0c3138de-61c9-4e2d-8982-aa68a6127f5f: # Grant Armour
+    enabledByDefault: true
+    hasUrls: true
+    template: about/index
+    uriFormat: about
+type: single

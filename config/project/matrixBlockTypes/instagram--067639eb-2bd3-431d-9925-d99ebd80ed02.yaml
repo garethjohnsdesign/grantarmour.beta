@@ -1,0 +1,36 @@
+field: 1e915834-a9e5-4736-aa84-209add6fb4e3 # Socials
+fieldLayouts:
+  c93a478d-1d14-4d20-9efe-e34253218b72:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 359405ac-d3c1-43b6-9713-1dabdebbe15c # Link
+            instructions: null
+            label: null
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  359405ac-d3c1-43b6-9713-1dabdebbe15c: # Link
+    contentColumnType: string(255)
+    fieldGroup: null
+    handle: socialLink
+    instructions: ''
+    name: Link
+    searchable: true
+    settings:
+      maxLength: '255'
+      placeholder: ''
+      types:
+        - url
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Url
+handle: instagram
+name: Instagram
+sortOrder: 1

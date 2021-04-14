@@ -1,0 +1,18 @@
+contentColumnType: text
+fieldGroup: 20ad2dfb-5b0d-4ef8-9ccf-dfb17fa54e0f # Projects
+handle: credit
+instructions: ''
+name: Credit
+searchable: true
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

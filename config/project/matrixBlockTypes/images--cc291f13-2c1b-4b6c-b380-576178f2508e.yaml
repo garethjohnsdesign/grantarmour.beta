@@ -1,0 +1,94 @@
+field: b20240ab-6495-4623-b16d-6ac8c2e80970 # Layout
+fieldLayouts:
+  b918e94e-3845-4d9c-ac2a-6dcb94312871:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 94c6038b-9a09-4949-b41b-dd71a726b906 # Images
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 7ca12c97-cce0-4d9f-8af9-e5efd396b354 # Position
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  7ca12c97-cce0-4d9f-8af9-e5efd396b354: # Position
+    contentColumnType: string
+    fieldGroup: null
+    handle: position
+    instructions: ''
+    name: Position
+    searchable: true
+    settings:
+      default: center
+      options:
+        __assoc__:
+          -
+            - left
+            - '1'
+          -
+            - center
+            - '1'
+          -
+            - right
+            - '1'
+          -
+            - full
+            - ''
+          -
+            - drop-left
+            - ''
+          -
+            - drop-right
+            - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: rias\positionfieldtype\fields\Position
+  94c6038b-9a09-4949-b41b-dd71a726b906: # Images
+    contentColumnType: string
+    fieldGroup: null
+    handle: images
+    instructions: ''
+    name: Images
+    searchable: true
+    settings:
+      allowSelfRelations: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:1a806f1f-2707-4f4f-b530-74857280c000' # Uploads
+      defaultUploadLocationSubpath: ''
+      limit: ''
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: ''
+      selectionLabel: 'Add an image'
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:1a806f1f-2707-4f4f-b530-74857280c000' # Uploads
+      singleUploadLocationSubpath: ''
+      source: null
+      sources: '*'
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: images
+name: Images
+sortOrder: 3

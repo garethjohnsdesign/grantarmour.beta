@@ -1,0 +1,13 @@
+contentColumnType: string
+fieldGroup: f8d4448a-1e97-4a1d-9e28-b16c546a43d4 # Globals
+handle: location
+instructions: ''
+name: Location
+searchable: true
+settings:
+  errorMessage: 'Component class ''ether\simplemap\fields\MapField'' belongs to an uninstalled plugin (Maps).'
+  expectedType: ether\simplemap\fields\MapField
+  settings: '{"lat":51.48185498775503,"lng":-0.004162788391113282,"zoom":17,"minZoom":"3","maxZoom":"18","country":"GB","hideSearch":"","hideMap":"","hideAddress":"","showLatLng":"","showCurrentLocation":"","size":"normal","hideLatLng":null,"height":null,"countryRestriction":null,"typeRestriction":null,"boundaryRestrictionNELat":null,"boundaryRestrictionNELng":null,"boundaryRestrictionSWLat":null,"boundaryRestrictionSWLng":null,"boundary":"\"\""}'
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\MissingField

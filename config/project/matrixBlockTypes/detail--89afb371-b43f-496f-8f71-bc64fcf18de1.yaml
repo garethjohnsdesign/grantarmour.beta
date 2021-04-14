@@ -1,0 +1,77 @@
+field: 2bb51cc5-46ef-4f45-bfaf-7f39f39fb470 # Detail
+fieldLayouts:
+  3578f680-992c-4e18-b158-136bfff9451d:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: dcfdaf81-07c8-4dfd-ae91-f5e72675638c # Header
+            instructions: null
+            label: null
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: cde1b327-1fbe-4a79-ab28-e99653c3a728 # Copy
+            instructions: null
+            label: null
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  cde1b327-1fbe-4a79-ab28-e99653c3a728: # Copy
+    contentColumnType: text
+    fieldGroup: null
+    handle: copy
+    instructions: ''
+    name: Copy
+    searchable: true
+    settings:
+      availableTransforms: '*'
+      availableVolumes: '*'
+      cleanupHtml: true
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: ''
+      purifyHtml: '1'
+      redactorConfig: Simple.json
+      removeEmptyTags: '1'
+      removeInlineStyles: '1'
+      removeNbsp: '1'
+      showHtmlButtonForNonAdmins: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: true
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+  dcfdaf81-07c8-4dfd-ae91-f5e72675638c: # Header
+    contentColumnType: text
+    fieldGroup: null
+    handle: header
+    instructions: ''
+    name: Header
+    searchable: true
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: detail
+name: Detail
+sortOrder: 1

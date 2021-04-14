@@ -1,0 +1,14 @@
+contentColumnType: string
+fieldGroup: d5c24e8d-4e91-427e-b900-7a257cb2b034 # General
+handle: layout
+instructions: ''
+name: Layout
+searchable: true
+settings:
+  contentTable: '{{%matrixcontent_layout}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix
