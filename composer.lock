@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1890fcbfbb885e19169e56dd19fd454b",
+    "content-hash": "740ca1663af96bf5849270723bcf6085",
     "packages": [
         {
             "name": "aelvan/imager",
@@ -1210,6 +1210,64 @@
                 "source": "https://github.com/craftcms/feed-me"
             },
             "time": "2021-03-05T21:27:46+00:00"
+        },
+        {
+            "name": "craftcms/google-cloud",
+            "version": "1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/craftcms/google-cloud.git",
+                "reference": "396350b80abdc9ce95e83136b1fbd8d064417a0b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/craftcms/google-cloud/zipball/396350b80abdc9ce95e83136b1fbd8d064417a0b",
+                "reference": "396350b80abdc9ce95e83136b1fbd8d064417a0b",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.1.5",
+                "superbalist/flysystem-google-storage": "^7.0.0"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Google Cloud Storage",
+                "handle": "google-cloud",
+                "documentationUrl": "https://github.com/craftcms/google-cloud/blob/master/README.md"
+            },
+            "autoload": {
+                "psr-4": {
+                    "craft\\googlecloud\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pixel & Tonic",
+                    "homepage": "https://pixelandtonic.com/"
+                }
+            ],
+            "description": "Google Cloud Storage integration for Craft CMS",
+            "keywords": [
+                "Flysystem",
+                "cloud",
+                "cms",
+                "craftcms",
+                "google",
+                "storage",
+                "yii2"
+            ],
+            "support": {
+                "docs": "https://github.com/craftcms/google-cloud/blob/master/README.md",
+                "email": "support@craftcms.com",
+                "issues": "https://github.com/craftcms/google-cloud/issues?state=open",
+                "rss": "https://github.com/craftcms/google-cloud/commits/master.atom",
+                "source": "https://github.com/craftcms/google-cloud"
+            },
+            "time": "2020-06-01T06:11:08+00:00"
         },
         {
             "name": "craftcms/oauth2-craftid",
@@ -5981,6 +6039,57 @@
                 "source": "https://github.com/ssnepenthe/color-utils/tree/master"
             },
             "time": "2017-06-19T16:48:17+00:00"
+        },
+        {
+            "name": "superbalist/flysystem-google-storage",
+            "version": "7.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Superbalist/flysystem-google-cloud-storage.git",
+                "reference": "87e2f450c0e4b5200fef9ffe6863068cc873d734"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Superbalist/flysystem-google-cloud-storage/zipball/87e2f450c0e4b5200fef9ffe6863068cc873d734",
+                "reference": "87e2f450c0e4b5200fef9ffe6863068cc873d734",
+                "shasum": ""
+            },
+            "require": {
+                "google/cloud-storage": "~1.0",
+                "league/flysystem": "~1.0",
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "0.9.*",
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Superbalist\\Flysystem\\GoogleStorage\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Superbalist.com a division of Takealot Online (Pty) Ltd",
+                    "email": "info@superbalist.com"
+                }
+            ],
+            "description": "Flysystem adapter for Google Cloud Storage",
+            "support": {
+                "issues": "https://github.com/Superbalist/flysystem-google-cloud-storage/issues",
+                "source": "https://github.com/Superbalist/flysystem-google-cloud-storage/tree/7.2.2"
+            },
+            "time": "2019-10-10T12:22:54+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
