@@ -52,17 +52,13 @@
   <div class="small-12 cell text-center">
   
   {% if entry.client %}
-  <div class="margin-bottom-0">B — {{ entry.client }}</div>
+  <div class="margin-bottom-0">{{ entry.client }}</div>
   {% endif %}
   
-  {% if entry.agency %}
-{#   <div class="margin-bottom-0">A — {{ entry.agency }}</div> #}
+  {% if entry.credit %}
+  <div class="margin-bottom-0">{{ entry.credit }}</div>
   {% endif %}
-  
-  {% if entry.productionCompany %}
-{#   <div class="margin-bottom-0">P — {{ entry.productionCompany }}</div> #}
-  {% endif %}
-  
+
   </div>
 </div>
 <!-- End Credit -->

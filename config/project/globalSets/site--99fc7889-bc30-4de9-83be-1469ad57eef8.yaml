@@ -4,7 +4,7 @@ fieldLayouts:
       -
         elements:
           -
-            fieldUid: 37935d71-f171-4ecf-96a8-d5a1092a6b9c # Location
+            fieldUid: 37935d71-f171-4ecf-96a8-d5a1092a6b9c
             instructions: null
             label: null
             required: '0'
@@ -13,7 +13,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: b98e4070-1198-44ee-a715-f62bffc2accd # Address
+            fieldUid: b98e4070-1198-44ee-a715-f62bffc2accd
             instructions: null
             label: null
             required: '0'
@@ -22,7 +22,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 5f69b46d-451c-44ae-939a-dfdcb992fe17 # Newsletter
+            fieldUid: 5f69b46d-451c-44ae-939a-dfdcb992fe17
             instructions: null
             label: null
             required: '0'

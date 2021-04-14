@@ -27,46 +27,10 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 7c550879-ba64-47e7-a95e-f8d01064181d # Client
-            instructions: null
-            label: null
-            required: '0'
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-          -
-            fieldUid: bfef7c64-5d17-4c0f-b84b-be25ad40257c # Category
-            instructions: null
-            label: null
-            required: '0'
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-          -
-            fieldUid: 61016a8c-9e99-4ed7-8c0e-ddc69bb6a4e5 # Agency
-            instructions: null
-            label: null
-            required: '0'
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-          -
-            fieldUid: bc041747-daa7-4cae-bff5-e402655fb752 # Credit
-            instructions: null
-            label: null
-            required: '0'
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-          -
             fieldUid: f2e7b889-f463-4dfa-9f10-8da7f7616b47 # Image
-            instructions: null
-            label: null
-            required: '0'
+            instructions: 'Image should ideally be 2880px wide, compressed JPG'
+            label: ''
+            required: '1'
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
@@ -90,7 +54,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 7f37781e-04f2-46c7-a5b2-0e863235248f # Play Preview
+            fieldUid: bfef7c64-5d17-4c0f-b84b-be25ad40257c # Category
             instructions: null
             label: null
             required: '0'
@@ -99,7 +63,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: ebec6e15-8b71-466a-99f5-128b28799488 # Production Company
+            fieldUid: 7c550879-ba64-47e7-a95e-f8d01064181d # Client
             instructions: null
             label: null
             required: '0'
@@ -108,16 +72,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 7239b6f3-7439-4c59-a90c-3f3c1b688c81 # Project
-            instructions: null
-            label: null
-            required: '0'
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-          -
-            fieldUid: 6e636ca8-c9d9-4868-a1ee-a1f59ef04b9a # Credits
+            fieldUid: bc041747-daa7-4cae-bff5-e402655fb752 # Credit
             instructions: null
             label: null
             required: '0'
@@ -127,15 +82,6 @@ fieldLayouts:
             width: 100
           -
             fieldUid: 44f8bb4e-fd2e-4680-997b-a3b80266a3e3 # Copy
-            instructions: null
-            label: null
-            required: '0'
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-          -
-            fieldUid: b20240ab-6495-4623-b16d-6ac8c2e80970 # Layout
             instructions: null
             label: null
             required: '0'
