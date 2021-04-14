@@ -34,27 +34,27 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
-            width: 100
+            width: 50
           -
-            fieldUid: 1c6366e0-70b7-4921-aea0-2165f1dd55c4 # Video
+            fieldUid: bfef7c64-5d17-4c0f-b84b-be25ad40257c # Category
             instructions: null
             label: null
             required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 50
+          -
+            fieldUid: 1c6366e0-70b7-4921-aea0-2165f1dd55c4 # Video
+            instructions: ''
+            label: ''
+            required: '1'
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
           -
             fieldUid: d9638c31-2f7a-45fd-b771-4cb2146e48b6 # Preview Video
-            instructions: null
-            label: null
-            required: '0'
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-          -
-            fieldUid: bfef7c64-5d17-4c0f-b84b-be25ad40257c # Category
             instructions: null
             label: null
             required: '0'
@@ -70,7 +70,7 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
-            width: 100
+            width: 50
           -
             fieldUid: bc041747-daa7-4cae-bff5-e402655fb752 # Credit
             instructions: null
@@ -79,7 +79,7 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
-            width: 100
+            width: 50
           -
             fieldUid: 44f8bb4e-fd2e-4680-997b-a3b80266a3e3 # Copy
             instructions: null
@@ -89,7 +89,7 @@ fieldLayouts:
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
-        name: 'Tab 1'
+        name: Project
         sortOrder: 1
 handle: projects
 hasTitleField: true
